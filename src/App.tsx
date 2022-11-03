@@ -1,12 +1,14 @@
 import React from 'react';
-import { Menu } from './components/0-menu';
+import { Header } from './components/0-menu';
+import { Title } from './components/modulos/SessionTitle';
 import { AppContainer, GlobalStyle } from './GlobalStyle';
 
 function App() {
   return (
     <AppContainer>
       <GlobalStyle />
-      <Menu />
+      <Header />
+      
     </AppContainer>
 
   );

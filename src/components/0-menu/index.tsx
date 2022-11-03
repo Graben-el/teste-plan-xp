@@ -1,14 +1,15 @@
-import React from 'react'
-import { Header, Logo } from './styles';
-import logo from '../../images/logo.png'
+import { HeaderContainer, LogoContainer} from './styles';
+import { Nav } from './Nav';
+import { BottomLink } from './BottomLink';
+import { Logo } from './Logo';
 
-export const Menu: React.FC  = ()=> {
+export const Header: React.FC = () => {
     return (
-        <Header >
-            <a href='/'>
-                <Logo src={logo} />
-            </a>
-        </Header>
+        <HeaderContainer >
+            <Logo />
+            <Nav />
+            <BottomLink />      
+        </HeaderContainer>
     );
 }
 
