@@ -13,8 +13,6 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         box-sizing: 0;
         font-family: 'Montserrat', sans-serif;
-        
-
     }
 
     html {
@@ -24,7 +22,9 @@ export const GlobalStyle = createGlobalStyle`
     body {
         background-color: var(--bg-color); 
         color: #fff;
+        height: 100vh;
     }
+    
 
     a, a:visited {
         color: black;
@@ -44,6 +44,9 @@ export const GlobalStyle = createGlobalStyle`
         }
 `
 
-export const AppContainer = styled.main`
+export const AppContainer = styled.div`
     display: flex;
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow-y: hidden;
 `

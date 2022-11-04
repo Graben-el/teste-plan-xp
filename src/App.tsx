@@ -4,6 +4,7 @@ import { AppContainer, GlobalStyle } from './GlobalStyle';
 import { BrowserRouter } from 'react-router-dom'
 import { AppDisplay } from './pages/routes';
 
+
 function App() {
   return (
     <BrowserRouter>
