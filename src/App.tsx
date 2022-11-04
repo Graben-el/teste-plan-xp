@@ -1,15 +1,18 @@
-import React from 'react';
 import { Header } from './components/0-menu';
-import { Title } from './components/modulos/SessionTitle';
+import { ContentContainer } from './components/modulos/ContentContainer';
 import { AppContainer, GlobalStyle } from './GlobalStyle';
+import { BrowserRouter } from 'react-router-dom'
+import { AppDisplay } from './pages/routes';
 
 function App() {
   return (
-    <AppContainer>
+    <BrowserRouter>
       <GlobalStyle />
-      <Header />
-      
-    </AppContainer>
+      <AppContainer>
+        <Header />
+        <AppDisplay />
+      </AppContainer>
+    </BrowserRouter>
 
   );
 }

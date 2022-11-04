@@ -1,4 +1,4 @@
-import { HeaderContainer, LogoContainer} from './styles';
+import { HeaderContainer } from './styles';
 import { Nav } from './Nav';
 import { BottomLink } from './BottomLink';
 import { Logo } from './Logo';

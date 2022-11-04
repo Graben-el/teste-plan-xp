@@ -1,14 +1,16 @@
 import styled from "styled-components";
 
-export const HeaderContainer = styled.header`
-    align-self: flex-start;
-    height: 100%;
-    width: 250px;
+export const HeaderContainer = styled.div`
+    height: 100vh;
+    width: 100%;
+    max-width: 250px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: column;
     border-right: 2px solid #292929;
+    border: 3px solid blue;
 
     .menu-bg {
         color: #4444444b;

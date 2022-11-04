@@ -5,6 +5,7 @@ export const GlobalStyle = createGlobalStyle`
 
     :root {
         --bg-color: #1E1E1E;
+        --subtitle-color: #939598;
     }
     
     * {
@@ -18,19 +19,10 @@ export const GlobalStyle = createGlobalStyle`
 
     html {
         font-size: 62.5%;
-        overflow: hidden;
     }
 
     body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        height: 100%;
-        width: 2560px;
-        max-width: 2560px;
-        background-color: var(--bg-color);
-        font-size: 1.6rem;
+        background-color: var(--bg-color); 
         color: #fff;
     }
 
@@ -42,12 +34,16 @@ export const GlobalStyle = createGlobalStyle`
     ul {
         list-style: none;
     }
+
+    .arrow {
+            bottom: -5%;
+            right: -25%;
+            color: #fff;
+            transform: rotate(45deg);
+            font-size: 1.8rem;
+        }
 `
 
 export const AppContainer = styled.main`
-    height: 100vh;
-    width: 2560px;
-    max-width: 2560px;
     display: flex;
-    /* border: 1px solid green; */
 `

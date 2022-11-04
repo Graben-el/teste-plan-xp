@@ -5,7 +5,7 @@ export const Logo: React.FC = () => {
     return (
         <LogoContainer>
             <a href='/'>
-                <img src={logo} />
+                <img src={logo} alt='logo'/>
             </a>
         </LogoContainer>
     );
