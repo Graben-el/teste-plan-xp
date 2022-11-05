@@ -4,7 +4,9 @@ import { ContentContainer, HeaderContainer } from "../styles";
 export const Container = styled(ContentContainer)`
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding: 10px 35px;
+    width: 90%;
 `
 export const HeaderCont = styled(HeaderContainer)`
     display: flex;

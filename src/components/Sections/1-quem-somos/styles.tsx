@@ -6,6 +6,10 @@ export const Container = styled(ContentContainer)`
     display: flex; 
     justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 30px 0;
+    padding: 10px 25px;
+    width: 90%;
+    
     .img {
         width: 100%;
         max-width: 850px;

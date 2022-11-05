@@ -5,9 +5,15 @@ export const Container = styled(ContentContainer)`
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: 40px;
+    flex-wrap: wrap;
+    /* gap: 0 20px; */
+    padding: 10px 0 10px 25px;
+    width: 95%;
 `
 export const HeaderCont = styled(HeaderContainer)`
+    max-width: 800px;
+    width: 100%;
+    
     p {
         max-width: 600px;
         margin-bottom: 10px;
@@ -26,7 +32,7 @@ export const HeaderCont = styled(HeaderContainer)`
 `
 
 export const ClientsContainer = styled.div`
-    max-width: 880px;
+    max-width: 800px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;

@@ -43,6 +43,21 @@ export const GlobalStyle = createGlobalStyle`
             transform: rotate(45deg);
             font-size: 1.8rem;
         }
+
+    .link {
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        color: #939598;
+        transition: 0.2s ease-in-out;
+
+        &:hover{
+            opacity: 0.7;
+        }
+
+        &:visited {
+            color: #939598;
+        }
+    }
 `
 
 export const AppContainer = styled.div`

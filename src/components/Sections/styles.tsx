@@ -42,7 +42,7 @@ export const CardContainer = styled.div`
             margin-bottom: 30px;
         }
 
-        a {
+        a{
             text-transform: uppercase;
             font-size: 1.4rem;
             color: #939598;
