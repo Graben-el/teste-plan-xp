@@ -2,7 +2,9 @@ import styled from "styled-components";
 import { ContentContainer, HeaderContainer } from "../styles";
 
 export const Container = styled(ContentContainer)`
-    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 `
 export const HeaderCont = styled(HeaderContainer)`
     display: flex;
@@ -17,6 +19,7 @@ export const HeaderCont = styled(HeaderContainer)`
 `
 
 export const TextContainer = styled.div`
+
     align-self: center;
     max-width: 700px;
 
@@ -33,6 +36,7 @@ export const TextContainer = styled.div`
 
         p {
             color: #939598;
+            font-size: 1.8rem;
         }
 
         .lorem {

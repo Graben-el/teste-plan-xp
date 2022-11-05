@@ -1,24 +1,25 @@
+import { Link } from 'react-scroll'
 import { MenuLink } from "../modulos/MenuLink"
 import { NavContainer } from "./styles"
 
 export const Nav: React.FC = () => {
     return (
         <NavContainer>
-            <a href="#">
+            <Link to='quem-somos' containerId='container' activeClass="active" spy={true} smooth={true} >
                 <MenuLink number="01" text="Quem Somos"/>
-            </a>
-            <a href="#">
+            </Link>
+            <Link to='oque-fazemos' containerId='container' activeClass="active" spy={true} smooth={true} >
                 <MenuLink number="02" text="O que fazemos"/>
-            </a>
-            <a href="#">
+            </Link>
+            <Link to='plan-news' containerId='container' activeClass="active" spy={true} smooth={true} >
                 <MenuLink number="03" text="Plan News"/>
-            </a>
-            <a href="#">
+            </Link>
+            <Link to='clientes' containerId='container' activeClass="active" spy={true} smooth={true} >
                 <MenuLink number="04" text="Nossos Clientes"/>
-            </a>
-            <a href="#">
+            </Link>
+            <Link to='contato' containerId='container' activeClass="active" spy={true} smooth={true} >
                 <MenuLink number="05" text="Contato"/>
-            </a>
+            </Link>
             
         </NavContainer>
     )

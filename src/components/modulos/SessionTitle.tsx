@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 interface IProps {
     number: string
-    title: string
+    title?: string
     subtitle: string
 }
 
@@ -11,8 +11,8 @@ export const Title = ({ number, title, subtitle }: IProps) => {
         <TitleContainer>
             <h2 className='menu-bg'>{number}.
                 <div className="menu-text">
-                    <span >/{title}</span>
-                    <span className='subtitle'>/{subtitle}</span>
+                    <span >{title}</span>
+                    <span className='subtitle'>{subtitle}</span>
                 </div>
             </h2>
         </TitleContainer>
@@ -23,8 +23,8 @@ const TitleContainer = styled.header`
     .menu-bg {
         color: #4444444b;
         position: relative;
-        max-width: 350px;
-        width: 350px;
+        max-width: 380px;
+        width: 380px;
         max-height: 165px;
         min-height: 165px;
         min-width: 300px;

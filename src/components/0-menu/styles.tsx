@@ -10,7 +10,6 @@ export const HeaderContainer = styled.div`
     justify-content: space-between;
     flex-direction: column;
     border-right: 2px solid #292929;
-    border: 3px solid blue;
 
     .menu-bg {
         color: #4444444b;

@@ -8,7 +8,7 @@ import {  Img } from "./styles"
 
 export const Cards: React.FC = () => {
     return(
-        <CardContainer>
+        <CardContainer style={{width: "fit-content"}}>
                 <Card className='card'>
                     <Img><img src={games1} alt='' /></Img>
                     <p>A <strong>Plan XP</strong> tem uma equipe qualificada para o <strong>desenvolvimento de jogos</strong> para <strong>dispositivos móveis</strong> (smartphones, tablets e afins)</p>

@@ -64,6 +64,7 @@ export const CardContainer = styled.div`
 export const Card = styled.div`
 
     max-width: 200px;
+    
 
     p {
         line-height: 28px;

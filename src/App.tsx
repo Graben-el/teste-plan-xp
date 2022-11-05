@@ -2,7 +2,9 @@ import { Header } from './components/0-menu';
 import { ContentContainer } from './components/modulos/ContentContainer';
 import { AppContainer, GlobalStyle } from './GlobalStyle';
 import { BrowserRouter } from 'react-router-dom'
-import { AppDisplay } from './pages/routes';
+import { Element, Events, scroller } from 'react-scroll';
+
+
 
 
 function App() {
@@ -11,7 +13,7 @@ function App() {
       <GlobalStyle />
       <AppContainer>
         <Header />
-        <AppDisplay />
+        <ContentContainer />
       </AppContainer>
     </BrowserRouter>
 

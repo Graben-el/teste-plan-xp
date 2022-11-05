@@ -10,7 +10,7 @@ export const Objective: React.FC = () => {
         <Container>
             <TextContainer >
                 <HeaderCont>
-                    <Title number='02' title='O que Fazemos' subtitle='Games' />
+                    <Title number='02' title='/O que Fazemos' subtitle='/Games' />
                 </HeaderCont>
                 <Text />
             </TextContainer>
