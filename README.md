@@ -1,46 +1,52 @@
-# Getting Started with Create React App
+# Introdução
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é um teste para a vaga de Desenvolvedor Front-end na empresa Plan XP. Seu principal objetivo é servir de avaliação das minhas habilidades, consistindo em criar uma landing page (com versão mobile e Desktop) baseada em um modelo enviado pela empresa via e-mail. 
 
-## Available Scripts
+Os únicos requisitos são:
+    
+1. Mobile - Menu deve fixar fixo no topo, ao clicar no ícone de menu deve expandir para tela inteira, mantendo o cabeçalho a vista
+2. Desktop - Deve ter rolagem única, cada seção do site deve ocupar a tela inteira do usuário. Menu desktop fixo do lado esquerdo
 
-In the project directory, you can run:
+# Sobre o projeto
 
-### `npm start`
+## Como iniciar o projeto localmente
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Clonar este repositório a partir do comando
+    `git clone https://github.com/Graben-el/teste-plan-xp.git `
+    ou baixar o arquivo zip do projeto.
+2. Abrir a pasta do projeto no terminal e inserir o comando
+    `npm install` para instalar as dependências necessárias para funcionamento.
+3. Inserir o comando `npm start` após a instalação das dependências.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+O projeto também pode ser visualizado através do Github Pages, no link https://graben-el.github.io/teste-plan-xp/.
 
-### `npm test`
+## Tecnologias Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para construir este projeto utilizei React.JS com TypeScript, aplicando componentes funcionais e hooks para controle de estado. Além disso foram utilizadas as seguintes bibliotecas para implementação de alguns recursos:
 
-### `npm run build`
+1. Styled-components -> estilização dos componentes usando CSS-in-JS;
+2. React-menu-burguer -> para criação do menu mobile (https://www.npmjs.com/package/react-burger-menu)
+3. React-scroll -> para implementação facilitada da funcionalidade de navegação aos componentes a partir do menu (https://www.npmjs.com/package/react-scroll)
+4. React Icons -> para fácil inclusão de emoticons/ícones (https://react-icons.github.io/react-icons/).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A construção de componentes foi planejada para que fosse possível reutilizar o máximo possível de código, através da criação de componentes genéricos.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+A estilização dos componentes foi feita ostensivamente a partir de CSS Flexbox para posicionamento e comportamento dos elementos exibidos.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Informações extras 
 
-### `npm run eject`
+### Desafios e Facilidades
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+A parte de estruturação do projeto foi feita de forma tranquila, sem nenhum tipo de dificuldade. A ideia de criar componentes genericos e a máxima componentização dos elementos criados facilitou a manutenção/alteração do código, apesar de saber que poderia ser ainda melhor.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Inicialmente foram tomadas algumas decisões erradas que tomaram muito tempo no desenvolvimento do projeto, devido a dificuldades em resolver bugs criados. A principal delas foi em relação a implementação do menu lateral para desktop, que a principio foi pensada de forma a utilizar a biblioteca react-router-dom para criar uma página separada, fora do contexto do menu. Posteriormente foi substituída pela simples forma de adicionar barras de rolagens no componente de conteúdo do site.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Imagens do projeto
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Versão Desktop:
 
-## Learn More
+<img src='./src/images/desktop.gif'></img>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Versão Mobile:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img src='./src/images/mobile.gif'></img>
