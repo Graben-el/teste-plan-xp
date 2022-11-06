@@ -20,6 +20,7 @@ export const Title = ({ number, title, subtitle }: IProps) => {
 }
 
 const TitleContainer = styled.header`
+    
     .menu-bg {
         color: #4444444b;
         position: relative;

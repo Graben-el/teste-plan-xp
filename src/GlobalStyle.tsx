@@ -65,4 +65,10 @@ export const AppContainer = styled.div`
     min-height: 100vh;
     max-height: 100vh;
     overflow-y: hidden;
+
+    @media(max-width: 1024px) {
+        display: block;
+        overflow-y: visible;
+    }
+    
 `

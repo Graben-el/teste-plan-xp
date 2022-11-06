@@ -12,7 +12,7 @@ interface ICard {
 export const Card = ({picture, tag, subtitle}: ICard) => {
     return (
         <CardComponent>
-            <Img><img src={picture} alt='' /></Img>
+            <Img><img src={picture} alt={tag} /></Img>
             <div className="text-container">
                 <header>
                     <p className='card-tag'>{tag}</p>

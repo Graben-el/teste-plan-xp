@@ -11,6 +11,11 @@ export const HeaderContainer = styled.div`
     flex-direction: column;
     border-right: 2px solid #292929;
 
+    @media(max-width: 1024px) {
+       display: none;
+    }
+    
+
     .menu-bg {
         color: #4444444b;
         position: relative;

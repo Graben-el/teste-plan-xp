@@ -9,6 +9,10 @@ export const Container = styled(ContentContainer)`
     gap: 30px 0;
     padding: 10px 25px;
     width: 90%;
+
+    @media (max-width: 1024px) {
+        margin-top: 112px;
+    }
     
     .img {
         width: 100%;

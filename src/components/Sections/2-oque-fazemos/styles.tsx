@@ -23,7 +23,7 @@ export const HeaderCont = styled(HeaderContainer)`
 export const TextContainer = styled.div`
 
     align-self: center;
-    max-width: 700px;
+    max-width: 550px;
 
     div {
         display: flex;
@@ -51,5 +51,10 @@ export const TextContainer = styled.div`
 
 export const Img = styled.div`
     width: 200px;
+    cursor: pointer;
+
+    .games {
+        width: 200px;
+    }
 `
 

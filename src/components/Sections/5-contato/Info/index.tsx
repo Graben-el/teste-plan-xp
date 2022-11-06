@@ -1,4 +1,4 @@
-import styled from "styled-components"
+
 import { SocialMediaCard } from "./Adress/SocialMediaCard"
 import { AdressCard } from "./Adress/Adress"
 import { InfoContainer, InfoWrapper } from "../styles"

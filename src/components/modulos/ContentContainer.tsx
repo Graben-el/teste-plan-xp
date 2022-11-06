@@ -1,6 +1,6 @@
-import React from "react"
 import { Element } from "react-scroll"
 import styled from "styled-components"
+import { MobileHeader } from "../0-menu/Mobile/MobileHeader"
 import { QuemSomos } from "../Sections/1-quem-somos"
 import { Objective } from "../Sections/2-oque-fazemos"
 import { PlanNews } from "../Sections/3-plan-news"
@@ -11,6 +11,7 @@ import { Contato } from "../Sections/5-contato"
 export const ContentContainer = () => {
     return (
         <Container id='container'>
+            <MobileHeader />
             <Element name='quem-somos' className="element-reset">
                 <QuemSomos />
             </Element>
@@ -36,9 +37,11 @@ const Container = styled.section`
     width: 100%;
     height: 100vh;
     overflow-y: scroll;
+    overflow-x: hidden;
     align-items: center;
 
     .element-reset {
         width: 100%;
+        height: fit-content;
     }
 `

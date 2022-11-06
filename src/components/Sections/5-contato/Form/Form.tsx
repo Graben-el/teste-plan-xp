@@ -50,7 +50,7 @@ export const Form: React.FC = () => {
             </div>
 
             <label htmlFor="mensagem">Mensagem:</label>
-            <textarea name="mensagem" id="mensagem" >{input.mensagem}</textarea>
+            <textarea name="mensagem" id="mensagem" defaultValue={input.mensagem}></textarea>
 
             <div className="submit-wrapper">
                 <input type="submit" value='Enviar' className="submit" onChange={handleChange} />

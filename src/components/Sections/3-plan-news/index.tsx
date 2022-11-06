@@ -7,7 +7,7 @@ import { Container, HeaderCont } from './styles'
 
 export const PlanNews: React.FC = () => {
     return(
-        <ContainerContainer>
+        <>
             <Container id='plan-news'>
                 <HeaderCont>
                     <Title number='03' title='/Plan News' subtitle='/Cases Games' />
@@ -17,14 +17,6 @@ export const PlanNews: React.FC = () => {
                 </HeaderCont>
                 <PlanCards />
             </Container>
-        </ContainerContainer>
+        </>
     )
 }
-
-const ContainerContainer = styled.div`
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-`

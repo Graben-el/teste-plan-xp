@@ -7,6 +7,7 @@ export const Container = styled(ContentContainer)`
     align-items: center;
     flex-wrap: wrap;
     padding: 10px 25px;
+    margin-bottom: 50px;
     width: 90%;
 
     .left-container {

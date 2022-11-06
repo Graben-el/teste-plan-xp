@@ -2,16 +2,19 @@ import styled from "styled-components";
 import { ContentContainer, HeaderContainer } from "../styles";
 
 export const Container = styled(ContentContainer)`
-    height: 100%;
-    width: 100%;
+    
+    width: 95%;
     display: flex;
     flex-direction: column; 
     justify-content: center;
+    /* align-items: flex-start; */
+    padding: 0 5%;
 `
 export const HeaderCont = styled(HeaderContainer)`
     display: flex;
     align-items: baseline;
     align-self: flex-start;
+    flex-wrap: wrap;
     p {
         color: var(--subtitle-color);
         text-transform: uppercase;
@@ -39,7 +42,16 @@ export const CardContainer = styled.div`
 export const CardComponent = styled.div`
     max-width: 277px;
     background-color: #50505045;
+    transition: 0.4s ease-in-out;
 
+        &:hover {
+            transform: scale(1.03);
+            box-shadow: 0 0 10px 2px #0000003d;
+        }
+    
+    &:hover {
+
+    }
 
     .text-container {
         padding: 20px;
@@ -67,6 +79,7 @@ export const CardComponent = styled.div`
             color: var(--subtitle-color);
             font-size: 1.9rem;
             font-weight: 500;
+            cursor: pointer;
         }
 
         a {

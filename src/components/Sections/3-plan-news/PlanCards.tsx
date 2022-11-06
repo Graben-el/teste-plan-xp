@@ -1,11 +1,8 @@
-import { Img } from "../2-oque-fazemos/styles"
 import news1 from '../../../images/news/news1.png'
 import news2 from '../../../images/news/news2.png'
 import news3 from '../../../images/news/news3.png'
 import news4 from '../../../images/news/news4.png'
 import news5 from '../../../images/news/news5.png'
-import styled from "styled-components"
-import { VscArrowRight } from "react-icons/vsc"
 import { CardContainer } from "./styles"
 import { Card } from "./Card"
 

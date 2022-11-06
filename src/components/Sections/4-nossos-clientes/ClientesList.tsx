@@ -13,15 +13,15 @@ import { ClientsContainer } from './styles'
 export const ClientesList: React.FC = () => {
     return (
         <ClientsContainer>
-            <img className='' src={client1} alt="atlas" />
-            <img className='' src={client2} alt="azul" />
-            <img className='' src={client3} alt="betanin" />
-            <img className='' src={client4} alt="dass" />
-            <img className='' src={client5} alt="fila" />
-            <img className='' src={client6} alt="gerdau" />
-            <img className='' src={client7} alt="kisafix" />
-            <img className='' src={client8} alt="taurus" />
-            <img className='' src={client9} alt="killing" />
+            <img className='client' src={client1} alt="atlas" />
+            <img className='client' src={client2} alt="azul" />
+            <img className='client' src={client3} alt="betanin" />
+            <img className='client' src={client4} alt="dass" />
+            <img className='client' src={client5} alt="fila" />
+            <img className='client' src={client6} alt="gerdau" />
+            <img className='client' src={client7} alt="kisafix" />
+            <img className='client' src={client8} alt="taurus" />
+            <img className='client' src={client9} alt="killing" />
         </ClientsContainer>
     )
 }
