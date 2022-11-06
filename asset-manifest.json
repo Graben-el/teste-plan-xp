@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.js": "/teste-plan-xp/static/js/main.010098b7.js",
+    "static/media/quemsomos.png": "/teste-plan-xp/static/media/quemsomos.0717a8186aad3787e1f8.png",
+    "static/media/news5.png": "/teste-plan-xp/static/media/news5.c36b4c5580a80ad66df4.png",
+    "static/media/games1.png": "/teste-plan-xp/static/media/games1.7310afc894e142215e44.png",
+    "static/media/news3.png": "/teste-plan-xp/static/media/news3.e37ee86086f6faf513cc.png",
+    "static/media/games3.png": "/teste-plan-xp/static/media/games3.483c3ac76b66b238f2b1.png",
+    "static/media/news4.png": "/teste-plan-xp/static/media/news4.218b97ed976143c90b0b.png",
+    "static/media/news1.png": "/teste-plan-xp/static/media/news1.8dabbdb929b6055d7ed4.png",
+    "static/media/games2.png": "/teste-plan-xp/static/media/games2.86346bfcef66d27e87b2.png",
+    "static/media/taurus.png": "/teste-plan-xp/static/media/taurus.3e0631004f955d23e8a1.png",
+    "static/media/gerdau.png": "/teste-plan-xp/static/media/gerdau.80c143a3327e94acff0c.png",
+    "static/media/news2.png": "/teste-plan-xp/static/media/news2.3acb050d04fee409880a.png",
+    "static/media/azul.png": "/teste-plan-xp/static/media/azul.ae3b07f99d0f74af34cb.png",
+    "static/media/betanin.png": "/teste-plan-xp/static/media/betanin.30bf819c369c1f37f89e.png",
+    "static/media/killing.png": "/teste-plan-xp/static/media/killing.02cb78e38fd8d477048b.png",
+    "static/media/fila.png": "/teste-plan-xp/static/media/fila.b2ef4b244205fbac8777.png",
+    "static/media/kisafix.png": "/teste-plan-xp/static/media/kisafix.97a15484fa27926ee13f.png",
+    "static/media/logo.png": "/teste-plan-xp/static/media/logo.ad5dbb3f49e62c69ac52.png",
+    "static/media/planmark.png": "/teste-plan-xp/static/media/planmark.ca7eed817314a122ad2c.png",
+    "index.html": "/teste-plan-xp/index.html",
+    "main.010098b7.js.map": "/teste-plan-xp/static/js/main.010098b7.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.010098b7.js"
+  ]
+}
